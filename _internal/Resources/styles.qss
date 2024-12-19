@@ -1,0 +1,612 @@
+/* styles.qss */
+
+#BurgerMenuButton, #homeButton, #functionsButton, #helpButton, #extraButton {
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#BurgerMenuButton:hover, #homeButton:hover, #functionsButton:hover, #helpButton:hover, #extraButton:hover {
+    border: 2px solid blue;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* ------------------------------------------------------------------------------- */
+
+/* Styles for Quip Database button */
+#Quip_Database QPushButton{
+    background-color: #f6f7fa; /* Light background color */
+    border: 8px solid;
+    border-top-color: #999999; /* Lighter color for top border */
+    border-bottom-color: #999999; /* Slightly darker color for bottom border */
+    border-left-color: #666666; /* Lighter color for left border */
+    border-right-color: #666666; /* Slightly darker color for right border */
+    font: bold 14px; /* Bold font */
+}
+
+/* Styles for Quip Database button when checked */
+#Quip_Database QPushButton:checked {
+    background-color: #f6f7fa; /* Light background color */
+    border: 8px solid;
+    border-top-color: #3c9ef9; /* Lighter color for top border */
+    border-bottom-color: #3c9ef9; /* Slightly darker color for bottom border */
+    border-left-color: #3c37f9; /* Lighter color for left border */
+    border-right-color: #3c37f9; /* Slightly darker color for right border */
+    font: bold 16px; /* Bold font */
+}
+
+/* Styles for Quip Database button on hover */
+#Quip_Database QPushButton:hover {
+    background-color: #e0e0e0; /* Lighter background color on hover */
+}
+
+/* Styles for Excel Database button */
+#Excel_Database QPushButton{
+    background-color: #f6f7fa; /* Light background color */
+    border: 8px solid;
+    border-top-color: #999999; /* Lighter color for top border */
+    border-bottom-color: #999999; /* Slightly darker color for bottom border */
+    border-left-color: #666666; /* Lighter color for left border */
+    border-right-color: #666666; /* Slightly darker color for right border */
+    font: bold 14px; /* Bold font */
+}
+
+/* Styles for Excel Database button when checked */
+#Excel_Database QPushButton:checked {
+    background-color: #f6f7fa; /* Light background color */
+    border: 8px solid;
+    border-top-color: #3c9ef9; /* Lighter color for top border */
+    border-bottom-color: #3c9ef9; /* Slightly darker color for bottom border */
+    border-left-color: #3c37f9; /* Lighter color for left border */
+    border-right-color: #3c37f9; /* Slightly darker color for right border */
+    font: bold 16px; /* Bold font */
+}
+
+/* Styles for Excel Database button on hover */
+#Excel_Database QPushButton:hover {
+    background-color: #e0e0e0; /* Lighter background color on hover */
+}
+
+/* ------------------------------------------------------------------------------- */
+
+/* Styles for SearchBy_Column_Widget button */
+#SearchBy_Column_Widget QPushButton {
+    background-color: #f6f7fa; /* Light background color */
+    border: 4px solid;
+    border-top-color: #999999; /* Lighter color for top border */
+    border-bottom-color: #999999; /* Slightly darker color for bottom border */
+    border-left-color: #666666; /* Lighter color for left border */
+    border-right-color: #666666; /* Slightly darker color for right border */
+    font: bold 12px; /* Bold font */
+    padding: 4px; /* Padding */
+}
+
+/* Styles for SearchBy_Column_Widget button when checked */
+#SearchBy_Column_Widget QPushButton:checked {
+    background-color: #f6f7fa; /* Light background color */
+    border: 4px solid;
+    border-top-color: #3c9ef9; /* Lighter color for top border */
+    border-bottom-color: #3c9ef9; /* Slightly darker color for bottom border */
+    border-left-color: #3c37f9; /* Lighter color for left border */
+    border-right-color: #3c37f9; /* Slightly darker color for right border */
+    font: bold 12px; /* Bold font */
+    padding: 4px; /* Padding */
+}
+
+/* Styles for SearchBy_Column_Widget button on hover */
+#SearchBy_Column_Widget QPushButton:hover {
+    background-color: #e0e0e0; /* Lighter background color on hover */
+}
+
+/* ------------------------------------------------------------------------------- */
+
+/* Styles for Advanced_Settings button */
+QPushButton#Advanced_Settings {
+    background-color: #f6f7fa; /* Light background color */
+    border: 6px solid;
+    border-top-color: #999999; /* Lighter color for top border */
+    border-bottom-color: #999999; /* Slightly darker color for bottom border */
+    border-left-color: #666666; /* Lighter color for left border */
+    border-right-color: #666666; /* Slightly darker color for right border */
+    font: bold 14px; /* Bold font */
+}
+
+/* Styles for Advanced_Settings button when checked */
+QPushButton#Advanced_Settings:pressed {
+    background-color: #f6f7fa; /* Light background color */
+    border: 6px solid;
+    border-top-color: #3c9ef9; /* Lighter color for top border */
+    border-bottom-color: #3c9ef9; /* Slightly darker color for bottom border */
+    border-left-color: #3c37f9; /* Lighter color for left border */
+    border-right-color: #3c37f9; /* Slightly darker color for right border */
+    font: bold 14px; /* Bold font */
+}
+
+/* Styles for Advanced_Settings button on hover */
+QPushButton#Advanced_Settings:hover {
+    background-color: #e0e0e0; /* Lighter background color on hover */
+}
+
+/* ------------------------------------------------------------------------------- */
+
+/* Styles for Advanced_Settings_Close button */
+QPushButton#Advanced_Settings_Close {
+    background-color: #f6f7fa; /* Light background color */
+    border: 6px solid;
+    border-top-color: #999999; /* Lighter color for top border */
+    border-bottom-color: #999999; /* Slightly darker color for bottom border */
+    border-left-color: #666666; /* Lighter color for left border */
+    border-right-color: #666666; /* Slightly darker color for right border */
+    font: bold 14px; /* Bold font */
+}
+
+/* Styles for Advanced_Settings_Close button when checked */
+QPushButton#Advanced_Settings_Close:pressed {
+    background-color: #f6f7fa; /* Light background color */
+    border: 6px solid;
+    border-top-color: #3c9ef9; /* Lighter color for top border */
+    border-bottom-color: #3c9ef9; /* Slightly darker color for bottom border */
+    border-left-color: #3c37f9; /* Lighter color for left border */
+    border-right-color: #3c37f9; /* Slightly darker color for right border */
+    font: bold 14px; /* Bold font */
+}
+
+/* Styles for Advanced_Settings_Close button on hover */
+QPushButton#Advanced_Settings_Close:hover {
+    background-color: #e0e0e0; /* Lighter background color on hover */
+}
+
+/* ------------------------------------------------------------------------------- */
+
+/* Styles for Reset_All_Settings button */
+QPushButton#Reset_All_Settings {
+    background-color: #f6f7fa; /* Light background color */
+    border: 6px solid;
+    border-top-color: #999999; /* Lighter color for top border */
+    border-bottom-color: #999999; /* Slightly darker color for bottom border */
+    border-left-color: #666666; /* Lighter color for left border */
+    border-right-color: #666666; /* Slightly darker color for right border */
+    font: bold 14px; /* Bold font */
+}
+
+/* Styles for Reset_All_Settings button when checked */
+QPushButton#Reset_All_Settings:pressed {
+    background-color: #f6f7fa; /* Light background color */
+    border: 6px solid;
+    border-top-color: #3c9ef9; /* Lighter color for top border */
+    border-bottom-color: #3c9ef9; /* Slightly darker color for bottom border */
+    border-left-color: #3c37f9; /* Lighter color for left border */
+    border-right-color: #3c37f9; /* Slightly darker color for right border */
+    font: bold 14px; /* Bold font */
+}
+
+/* Styles for Reset_All_Settings button on hover */
+QPushButton#Reset_All_Settings:hover {
+    background-color: #e0e0e0; /* Lighter background color on hover */
+}
+
+/* ------------------------------------------------------------------------------- */
+
+/* Styles for Confirm_Function button */
+QPushButton#Confirm_Function {
+    background-color: #f6f7fa; /* Light background color */
+    border: 6px solid;
+    border-top-color: #999999; /* Lighter color for top border */
+    border-bottom-color: #999999; /* Slightly darker color for bottom border */
+    border-left-color: #666666; /* Lighter color for left border */
+    border-right-color: #666666; /* Slightly darker color for right border */
+    font: bold 12px; /* Bold font */
+}
+
+/* Styles for Confirm_Function button when checked */
+QPushButton#Confirm_Function:checked {
+    background-color: #f6f7fa; /* Light background color */
+    border: 6px solid;
+    border-top-color: #3c9ef9; /* Lighter color for top border */
+    border-bottom-color: #3c9ef9; /* Slightly darker color for bottom border */
+    border-left-color: #3c37f9; /* Lighter color for left border */
+    border-right-color: #3c37f9; /* Slightly darker color for right border */
+    font: bold 12px; /* Bold font */
+}
+
+/* Styles for Confirm_Function button on hover */
+QPushButton#Confirm_Function:hover {
+    background-color: #e0e0e0; /* Lighter background color on hover */
+}
+
+/* Styles for Kill_Confirmation button */
+QPushButton#Kill_Confirmation {
+    background-color: #f6f7fa; /* Light background color */
+    border: 6px solid;
+    border-top-color: #999999; /* Lighter color for top border */
+    border-bottom-color: #999999; /* Slightly darker color for bottom border */
+    border-left-color: #666666; /* Lighter color for left border */
+    border-right-color: #666666; /* Slightly darker color for right border */
+    font: bold 12px; /* Bold font */
+}
+
+/* Styles for Kill_Confirmation button when checked */
+QPushButton#Kill_Confirmation:pressed {
+    background-color: #f6f7fa; /* Light background color */
+    border: 6px solid;
+    border-top-color: #3c9ef9; /* Lighter color for top border */
+    border-bottom-color: #3c9ef9; /* Slightly darker color for bottom border */
+    border-left-color: #3c37f9; /* Lighter color for left border */
+    border-right-color: #3c37f9; /* Slightly darker color for right border */
+    font: bold 12px; /* Bold font */
+}
+
+/* Styles for Kill_Confirmation button on hover */
+QPushButton#Kill_Confirmation:hover {
+    background-color: #e0e0e0; /* Lighter background color on hover */
+}
+
+/* ------------------------------------------------------------------------------- */
+
+/* Styles for Open_Chrome button */
+QPushButton#Open_Chrome {
+    background-color: #f6f7fa; /* Light background color */
+    border: 6px solid;
+    border-top-color: #999999; /* Lighter color for top border */
+    border-bottom-color: #999999; /* Slightly darker color for bottom border */
+    border-left-color: #666666; /* Lighter color for left border */
+    border-right-color: #666666; /* Slightly darker color for right border */
+    font: bold 12px; /* Bold font */
+}
+
+/* Styles for Open_Chrome button when checked */
+QPushButton#Open_Chrome:pressed {
+    background-color: #f6f7fa; /* Light background color */
+    border: 6px solid;
+    border-top-color: #3c9ef9; /* Lighter color for top border */
+    border-bottom-color: #3c9ef9; /* Slightly darker color for bottom border */
+    border-left-color: #3c37f9; /* Lighter color for left border */
+    border-right-color: #3c37f9; /* Slightly darker color for right border */
+    font: bold 12px; /* Bold font */
+}
+
+/* Styles for Open_Chrome button on hover */
+QPushButton#Open_Chrome:hover {
+    background-color: #e0e0e0; /* Lighter background color on hover */
+}
+
+/* ------------------------------------------------------------------------------- */
+
+/* Styles for Open_Excel button */
+QPushButton#Open_Excel {
+    background-color: #f6f7fa; /* Light background color */
+    border: 6px solid;
+    border-top-color: #999999; /* Lighter color for top border */
+    border-bottom-color: #999999; /* Slightly darker color for bottom border */
+    border-left-color: #666666; /* Lighter color for left border */
+    border-right-color: #666666; /* Slightly darker color for right border */
+    font: bold 12px; /* Bold font */
+}
+
+/* Styles for Open_Excel button when checked */
+QPushButton#Open_Excel:pressed {
+    background-color: #f6f7fa; /* Light background color */
+    border: 6px solid;
+    border-top-color: #3c9ef9; /* Lighter color for top border */
+    border-bottom-color: #3c9ef9; /* Slightly darker color for bottom border */
+    border-left-color: #3c37f9; /* Lighter color for left border */
+    border-right-color: #3c37f9; /* Slightly darker color for right border */
+    font: bold 12px; /* Bold font */
+}
+
+/* Styles for Open_Excel button on hover */
+QPushButton#Open_Excel:hover {
+    background-color: #e0e0e0; /* Lighter background color on hover */
+}
+
+/* ------------------------------------------------------------------------------- */
+
+/* Styles for Open_Firefox button */
+QPushButton#Open_Firefox {
+    background-color: #f6f7fa; /* Light background color */
+    border: 6px solid;
+    border-top-color: #999999; /* Lighter color for top border */
+    border-bottom-color: #999999; /* Slightly darker color for bottom border */
+    border-left-color: #666666; /* Lighter color for left border */
+    border-right-color: #666666; /* Slightly darker color for right border */
+    font: bold 12px; /* Bold font */
+}
+
+/* Styles for Open_Firefox button when checked */
+QPushButton#Open_Firefox:pressed {
+    background-color: #f6f7fa; /* Light background color */
+    border: 6px solid;
+    border-top-color: #3c9ef9; /* Lighter color for top border */
+    border-bottom-color: #3c9ef9; /* Slightly darker color for bottom border */
+    border-left-color: #3c37f9; /* Lighter color for left border */
+    border-right-color: #3c37f9; /* Slightly darker color for right border */
+    font: bold 12px; /* Bold font */
+}
+
+/* Styles for Open_Firefox button on hover */
+QPushButton#Open_Firefox:hover {
+    background-color: #e0e0e0; /* Lighter background color on hover */
+}
+
+/* ------------------------------------------------------------------------------- */
+
+/* Styles for Open_Edge button */
+QPushButton#Open_Edge {
+    background-color: #f6f7fa; /* Light background color */
+    border: 6px solid;
+    border-top-color: #999999; /* Lighter color for top border */
+    border-bottom-color: #999999; /* Slightly darker color for bottom border */
+    border-left-color: #666666; /* Lighter color for left border */
+    border-right-color: #666666; /* Slightly darker color for right border */
+    font: bold 12px; /* Bold font */
+}
+
+/* Styles for Open_Edge button when checked */
+QPushButton#Open_Edge:pressed {
+    background-color: #f6f7fa; /* Light background color */
+    border: 6px solid;
+    border-top-color: #3c9ef9; /* Lighter color for top border */
+    border-bottom-color: #3c9ef9; /* Slightly darker color for bottom border */
+    border-left-color: #3c37f9; /* Lighter color for left border */
+    border-right-color: #3c37f9; /* Slightly darker color for right border */
+    font: bold 12px; /* Bold font */
+}
+
+/* Styles for Open_Edge button on hover */
+QPushButton#Open_Edge:hover {
+    background-color: #e0e0e0; /* Lighter background color on hover */
+}
+
+/* ------------------------------------------------------------------------------- */
+
+/* Styles for Open_Excel button */
+QPushButton#Open_Excel {
+    background-color: #f6f7fa; /* Light background color */
+    border: 6px solid;
+    border-top-color: #999999; /* Lighter color for top border */
+    border-bottom-color: #999999; /* Slightly darker color for bottom border */
+    border-left-color: #666666; /* Lighter color for left border */
+    border-right-color: #666666; /* Slightly darker color for right border */
+    font: bold 12px; /* Bold font */
+}
+
+/* Styles for Open_Excel button when checked */
+QPushButton#Open_Excel:pressed {
+    background-color: #f6f7fa; /* Light background color */
+    border: 6px solid;
+    border-top-color: #3c9ef9; /* Lighter color for top border */
+    border-bottom-color: #3c9ef9; /* Slightly darker color for bottom border */
+    border-left-color: #3c37f9; /* Lighter color for left border */
+    border-right-color: #3c37f9; /* Slightly darker color for right border */
+    font: bold 12px; /* Bold font */
+}
+
+/* Styles for Open_Excel button on hover */
+QPushButton#Open_Excel:hover {
+    background-color: #e0e0e0; /* Lighter background color on hover */
+}
+
+/* ------------------------------------------------------------------ */
+
+QComboBox:editable {
+    border: 2px solid #bbbbbb;
+    background-color: #dddddd;
+    font: bold 16px;
+}
+
+QComboBox QAbstractItemView {
+    background-color: #dddddd;
+}
+
+QComboBox QLineEdit QCompleter {
+    background-color: #dddddd;
+}
+
+QComboBox:drop-down {
+                width: 20px;
+            }
+
+/* ------------------------------------------------------------------ */
+
+/* Styles for Cardholder_Tab_Info_Widget button */
+#Cardholder_Tab_Info_Widget QPushButton {
+    background-color: #f6f7fa; /* Light background color */
+    border: 4px solid;
+    border-top-color: #999999; /* Lighter color for top border */
+    border-bottom-color: #999999; /* Slightly darker color for bottom border */
+    border-left-color: #666666; /* Lighter color for left border */
+    border-right-color: #666666; /* Slightly darker color for right border */
+    font: bold 16px; /* Bold font */
+    padding: 4px; /* Padding */
+}
+
+/* Styles for Cardholder_Tab_Info_Widget button when checked */
+#Cardholder_Tab_Info_Widget QPushButton:checked {
+    background-color: #f6f7fa; /* Light background color */
+    border: 4px solid;
+    border-top-color: #3c9ef9; /* Lighter color for top border */
+    border-bottom-color: #3c9ef9; /* Slightly darker color for bottom border */
+    border-left-color: #3c37f9; /* Lighter color for left border */
+    border-right-color: #3c37f9; /* Slightly darker color for right border */
+    font: bold 16px; /* Bold font */
+    padding: 4px; /* Padding */
+}
+
+/* Styles for Badge_Tab_Info_Widget button */
+#Badge_Tab_Info_Widget QPushButton {
+    background-color: #f6f7fa; /* Light background color */
+    border: 4px solid;
+    border-top-color: #999999; /* Lighter color for top border */
+    border-bottom-color: #999999; /* Slightly darker color for bottom border */
+    border-left-color: #666666; /* Lighter color for left border */
+    border-right-color: #666666; /* Slightly darker color for right border */
+    font: bold 16px; /* Bold font */
+    padding: 4px; /* Padding */
+}
+
+/* Styles for Badge_Tab_Info_Widget button when checked */
+#Badge_Tab_Info_Widget QPushButton:checked {
+    background-color: #f6f7fa; /* Light background color */
+    border: 4px solid;
+    border-top-color: #3c9ef9; /* Lighter color for top border */
+    border-bottom-color: #3c9ef9; /* Slightly darker color for bottom border */
+    border-left-color: #3c37f9; /* Lighter color for left border */
+    border-right-color: #3c37f9; /* Slightly darker color for right border */
+    font: bold 16px; /* Bold font */
+    padding: 4px; /* Padding */
+}
+
+/* Styles for AccessLvlTabInfo_ActivateButton button */
+#AccessLvl_Tab_Info_Widget QPushButton {
+    background-color: #f6f7fa; /* Light background color */
+    border: 4px solid;
+    border-top-color: #999999; /* Lighter color for top border */
+    border-bottom-color: #999999; /* Slightly darker color for bottom border */
+    border-left-color: #666666; /* Lighter color for left border */
+    border-right-color: #666666; /* Slightly darker color for right border */
+    font: bold 16px; /* Bold font */
+    padding: 4px; /* Padding */
+}
+
+/* Styles for AccessLvlTabInfo_ActivateButton button when checked */
+#AccessLvl_Tab_Info_Widget QPushButton:checked {
+    background-color: #f6f7fa; /* Light background color */
+    border: 4px solid;
+    border-top-color: #3c9ef9; /* Lighter color for top border */
+    border-bottom-color: #3c9ef9; /* Slightly darker color for bottom border */
+    border-left-color: #3c37f9; /* Lighter color for left border */
+    border-right-color: #3c37f9; /* Slightly darker color for right border */
+    font: bold 16px; /* Bold font */
+    padding: 4px; /* Padding */
+}
+
+/* Styles for ColorCodeSettings_Widget button */
+#ColorCodeSettings_Widget QPushButton {
+    background-color: #f6f7fa; /* Light background color */
+    border: 4px solid;
+    border-top-color: #999999; /* Lighter color for top border */
+    border-bottom-color: #999999; /* Slightly darker color for bottom border */
+    border-left-color: #666666; /* Lighter color for left border */
+    border-right-color: #666666; /* Slightly darker color for right border */
+    font: bold 16px; /* Bold font */
+    padding: 4px; /* Padding */
+}
+
+/* Styles for ColorCodeSettings_Widget button when checked */
+#ColorCodeSettings_Widget QPushButton:checked {
+    background-color: #f6f7fa; /* Light background color */
+    border: 4px solid;
+    border-top-color: #3c9ef9; /* Lighter color for top border */
+    border-bottom-color: #3c9ef9; /* Slightly darker color for bottom border */
+    border-left-color: #3c37f9; /* Lighter color for left border */
+    border-right-color: #3c37f9; /* Slightly darker color for right border */
+    font: bold 16px; /* Bold font */
+    padding: 4px; /* Padding */
+}
+
+/* ------------------------------------------------------------------------------- */
+
+/* Styles for Advanced_Settings button */
+#Advanced_Settings_Button QPushButton{
+    background-color: #f6f7fa; /* Light background color */
+    border: 6px solid;
+    border-top-color: #999999; /* Lighter color for top border */
+    border-bottom-color: #999999; /* Slightly darker color for bottom border */
+    border-left-color: #666666; /* Lighter color for left border */
+    border-right-color: #666666; /* Slightly darker color for right border */
+    font: bold 16px; /* Bold font */
+}
+
+/* Styles for Advanced_Settings button when checked */
+#Advanced_Settings_Button QPushButton:pressed {
+    background-color: #f6f7fa; /* Light background color */
+    border: 6px solid;
+    border-top-color: #3c9ef9; /* Lighter color for top border */
+    border-bottom-color: #3c9ef9; /* Slightly darker color for bottom border */
+    border-left-color: #3c37f9; /* Lighter color for left border */
+    border-right-color: #3c37f9; /* Slightly darker color for right border */
+    font: bold 16px; /* Bold font */
+}
+
+/* Styles for Advanced_Settings button on hover */
+#Advanced_Settings_Button QPushButton:hover {
+    background-color: #e0e0e0; /* Lighter background color on hover */
+}
+
+/* ------------------------------------------------------------------------------- */
+
+/* Styles for Interpreter_Settings button */
+#Interpreter_Settings QPushButton{
+    background-color: #f6f7fa; /* Light background color */
+    border: 6px solid;
+    border-top-color: #999999; /* Lighter color for top border */
+    border-bottom-color: #999999; /* Slightly darker color for bottom border */
+    border-left-color: #666666; /* Lighter color for left border */
+    border-right-color: #666666; /* Slightly darker color for right border */
+    font: bold 16px; /* Bold font */
+}
+
+/* Styles for Interpreter_Settings button when checked */
+#Interpreter_Settings QPushButton:pressed {
+    background-color: #f6f7fa; /* Light background color */
+    border: 6px solid;
+    border-top-color: #3c9ef9; /* Lighter color for top border */
+    border-bottom-color: #3c9ef9; /* Slightly darker color for bottom border */
+    border-left-color: #3c37f9; /* Lighter color for left border */
+    border-right-color: #3c37f9; /* Slightly darker color for right border */
+    font: bold 16px; /* Bold font */
+}
+
+/* Styles for Interpreter_Settings button on hover */
+#Interpreter_Settings QPushButton:hover {
+    background-color: #e0e0e0; /* Lighter background color on hover */
+}
+
+/* ------------------------------------------------------------------------------- */
+
+/* Styles for Close_Interpreter_Settings button */
+#Close_Interpreter_Settings QPushButton{
+    background-color: #f6f7fa; /* Light background color */
+    border: 6px solid;
+    border-top-color: #999999; /* Lighter color for top border */
+    border-bottom-color: #999999; /* Slightly darker color for bottom border */
+    border-left-color: #666666; /* Lighter color for left border */
+    border-right-color: #666666; /* Slightly darker color for right border */
+    font: bold 16px; /* Bold font */
+}
+
+/* Styles for Close_Interpreter_Settings button when checked */
+#Close_Interpreter_Settings QPushButton:pressed {
+    background-color: #f6f7fa; /* Light background color */
+    border: 6px solid;
+    border-top-color: #3c9ef9; /* Lighter color for top border */
+    border-bottom-color: #3c9ef9; /* Slightly darker color for bottom border */
+    border-left-color: #3c37f9; /* Lighter color for left border */
+    border-right-color: #3c37f9; /* Slightly darker color for right border */
+    font: bold 16px; /* Bold font */
+}
+
+/* Styles for Close_Interpreter_Settings button on hover */
+#Close_Interpreter_Settings QPushButton:hover {
+    background-color: #e0e0e0; /* Lighter background color on hover */
+}
+
+/* ------------------------------------------------------------------------------- */
+
+QPushButton#More_Info {
+    font: bold 16px; /* Bold font */
+    border: 2px solid;
+    border-top-color: #999999; /* Lighter color for top border */
+    border-bottom-color: #999999; /* Slightly darker color for bottom border */
+    border-left-color: #666666; /* Lighter color for left border */
+    border-right-color: #666666; /* Slightly darker color for right border */
+}
+
+QPushButton#More_Info:hover {
+    background-color: #e0e0e0; /* Lighter background color on hover */
+    font: bold 16px; /* Bold font */
+    border: 2px solid;
+    border-top-color: #3c9ef9; /* Lighter color for top border */
+    border-bottom-color: #3c9ef9; /* Slightly darker color for bottom border */
+    border-left-color: #3c37f9; /* Lighter color for left border */
+    border-right-color: #3c37f9; /* Slightly darker color for right border */
+}
