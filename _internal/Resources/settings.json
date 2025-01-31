@@ -1,0 +1,166 @@
+{
+    "Page_Stack_Index": 0,
+    "Cardholder_Verification_Plugin": true,
+    "function_combobox": "Cardholder Verification",
+    "Run Function Key": "F2",
+    "Kill Switch Key": "Ctrl+Alt+Shift",
+    "Quip_Database": true,
+    "Excel_Database": false,
+    "Starting Row": "3",
+    "CommandLine Column": "A",
+    "SearchBy_Column_Widget": [
+        true,
+        false,
+        "A"
+    ],
+    "Home_Site_Widget": "KAFW",
+    "Cardholder_Tab_Info_Widget": true,
+    "EID_Widget": [
+        true,
+        "A"
+    ],
+    "Login_Widget": [
+        true,
+        "B"
+    ],
+    "FirstName_Widget": [
+        true,
+        "C"
+    ],
+    "LastName_Widget": [
+        true,
+        "C"
+    ],
+    "EmployeeType_Widget": [
+        true,
+        "D"
+    ],
+    "EmployeeStatus_Widget": [
+        true,
+        "E"
+    ],
+    "ManagerLogin_Widget": [
+        true,
+        "F"
+    ],
+    "PersonID_Widget": [
+        true,
+        "G"
+    ],
+    "Barcode_Widget": [
+        true,
+        "H"
+    ],
+    "Tenure_Widget": [
+        true,
+        "I"
+    ],
+    "Region_Widget": [
+        true,
+        "J"
+    ],
+    "Building_Widget": [
+        true,
+        "K"
+    ],
+    "Badge_Tab_Info_Widget": true,
+    "BadgeStatus_Widget": [
+        true,
+        "L"
+    ],
+    "BadgeType_Widget": [
+        true,
+        "M"
+    ],
+    "BadgeCount_Widget": [
+        true,
+        "N"
+    ],
+    "BadgeID_Widget": [
+        true,
+        "O"
+    ],
+    "ActiveOn_Widget_Badge": [
+        true,
+        "P"
+    ],
+    "DeactiveOn_Widget_Badge": [
+        true,
+        "Q"
+    ],
+    "LastUpdate_Widget": [
+        true,
+        "R"
+    ],
+    "LastRead_Widget": [
+        true,
+        "S"
+    ],
+    "LastTimestamp_Widget": [
+        true,
+        "T"
+    ],
+    "EventType_Widget": [
+        true,
+        "U"
+    ],
+    "ActiveBadgePresent_Widget": [
+        true,
+        "V"
+    ],
+    "AccessLvl_Tab_Info_Widget": true,
+    "GeneralAccess_Widget": [
+        true,
+        "W"
+    ],
+    "AccessLvlCount_Widget": [
+        true,
+        "X"
+    ],
+    "ActivateOn_Widget_AccessLvl": [
+        true,
+        "Y"
+    ],
+    "DeactiveOn_Widget_AccessLvl": [
+        true,
+        "Z"
+    ],
+    "ColorCodeSettings_Widget": true,
+    "Active AA, Active Badge @ Site_Widget": [
+        true,
+        "Green50"
+    ],
+    "Active AA, Active Badge @ Other Site_Widget": [
+        true,
+        "Green5"
+    ],
+    "Active AA, Inactive Badge @ Site_Widget": [
+        true,
+        "Blue20"
+    ],
+    "Active AA, Inactive Badge @ Other Site_Widget": [
+        true,
+        "Blue20"
+    ],
+    "Terminated AA @ Site_Widget": [
+        true,
+        "Gray80"
+    ],
+    "Terminated AA @ Other Site_Widget": [
+        true,
+        "Red40"
+    ],
+    "*Fail Safe Measure* Bad EID/Login_Widget": [
+        true,
+        "Magenta60"
+    ],
+    "*Color a Column* Row Complete_Widget": [
+        true,
+        "D",
+        "Gold40"
+    ],
+    "LastNameComma_FirstName_CardholderVerification": true,
+    "FirstNameComma_LastName_CardholderVerification": false,
+    "FirstName_LastName_CardholderVerification": false,
+    "Find_NATA_Profile_Plugin": true
+}
